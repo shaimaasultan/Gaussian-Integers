@@ -939,7 +939,7 @@ This framework contributes the following constraints.
 $$
 \boxed{
 \begin{array}{c|c}
-X\bmod4&(P\bmod4,Q\bmod4)\\ \hline
+X\bmod4&(P\bmod4,Q\bmod4)\\
 0&(1,3)\text{ or }(3,1)\\
 2&(1,1)\text{ or }(3,3)
 \end{array}}
@@ -1046,7 +1046,7 @@ Their relationship with the modulo-$4$ branches is
 $$
 \boxed{
 \begin{array}{c|c}
-p\bmod4&p\bmod8\\ \hline
+p\bmod4&p\bmod8\\
 1&1\text{ or }5\\
 3&3\text{ or }7
 \end{array}}
@@ -2163,7 +2163,7 @@ This produces the exact branch behavior
 $$
 \boxed{
 \begin{array}{c|c}
-p\bmod4&\text{Behavior in }\mathbb Z[h]=\mathbb Z[i]\\ \hline
+p\bmod4&\text{Behavior in }\mathbb Z[h]=\mathbb Z[i]\\
 1&p\text{ splits into conjugate Gaussian factors}\\
 3&p\text{ remains Gaussian prime}
 \end{array}}
