@@ -803,7 +803,7 @@ $$
 Consequently,
 
 $$
-\frac X4=left(\frac A2\right)^2+left(\frac B2\right)^2.
+\frac X4=\left(\frac A2\right)^2+\left(\frac B2\right)^2.
 $$
 
 A simple sufficient relation among the original variables is
@@ -2270,7 +2270,7 @@ The criterion can be expressed compactly using the Legendre symbol:
 
 $$
 \boxed{
-\left(\frac{-1}{p}\right)
+(\frac{-1}{p})
 =(-1)^{(p-1)/2}
 =
 \begin{cases}
