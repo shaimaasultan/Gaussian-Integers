@@ -328,31 +328,31 @@ The correcting unit $(-i)^{e_2}$ cancels $i^{e_2}$, leaving the positive real fa
 Write
 
 $$
-\operatorname{cis}(\theta)=\cos\theta+i\sin\theta
+\mathrm{cis}(\theta)=\cos\theta+i\sin\theta
 $$
 
 and define
 
 $$
-\theta_p=\operatorname{atan2}(b_p,a_p).
+\theta_p=\mathrm{atan2}(b_p,a_p).
 $$
 
 The factors then have the polar forms
 
 $$
-(-i)^{e_2}=\operatorname{cis}\left(-\frac{e_2\pi}{2}\right),
+(-i)^{e_2}=\mathrm{cis}\left(-\frac{e_2\pi}{2}\right),
 $$
 
 $$
 (1+i)^{2e_2}
-=2^{e_2}\operatorname{cis}\left(\frac{e_2\pi}{2}\right),
+=2^{e_2}\mathrm{cis}\left(\frac{e_2\pi}{2}\right),
 $$
 
 and
 
 $$
 (a_p\mathbin{\pm}b_pi)^{e_p}
-=p^{e_p/2}\operatorname{cis}(\mathbin{\pm}e_p\theta_p).
+=p^{e_p/2}\mathrm{cis}(\mathbin{\pm}e_p\theta_p).
 $$
 
 Thus the complete sine-and-cosine representation is
@@ -410,7 +410,7 @@ $$
 and
 
 $$
-\theta=\operatorname{atan2}(b,a),
+\theta=\mathrm{atan2}(b,a),
 $$
 
 then
@@ -1165,14 +1165,14 @@ $$
 with
 
 $$
-\operatorname N(q)=a^2+b^2+c^2+d^2.
+\mathrm N(q)=a^2+b^2+c^2+d^2.
 $$
 
 For instance,
 
 $$
 \boxed{
-\operatorname N(2+i+j+k)
+\mathrm N(2+i+j+k)
 =2^2+1^2+1^2+1^2
 =7.
 }
@@ -1754,7 +1754,7 @@ For the simpler element $a+bh$, the complete algebraic norm across all four conj
 
 $$
 \boxed{
-\operatorname N_{\mathbb Q(h)/\mathbb Q}(a+bh)=a^4+b^4.
+\mathrm N_{\mathbb Q(h)/\mathbb Q}(a+bh)=a^4+b^4.
 }
 $$
 
@@ -2116,7 +2116,7 @@ The complete algebraic norm, however, remains
 
 $$
 \boxed{
-\operatorname N_{\mathbb Q(h)/\mathbb Q}(a+bh)=a^4+b^4.
+\mathrm N_{\mathbb Q(h)/\mathbb Q}(a+bh)=a^4+b^4.
 }
 $$
 
@@ -2476,7 +2476,7 @@ The split-complex channel uses a difference of squares. If the representation mu
 Quaternion norms provide the universal positive representation
 
 $$
-\operatorname N(a+bi+cj+dk)=a^2+b^2+c^2+d^2.
+\mathrm N(a+bi+cj+dk)=a^2+b^2+c^2+d^2.
 $$
 
 By Lagrange's four-square theorem, every nonnegative integer has such a representation. However, the quaternion norm alone does not preserve the Gaussian split/unsplit distinction. The corresponding combined framework is therefore
